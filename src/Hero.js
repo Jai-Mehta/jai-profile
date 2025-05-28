@@ -161,7 +161,7 @@ const Hero = () => {
             whileTap={{ scale: 0.95 }}
           >
             <a
-              href="https://docs.google.com/document/d/1AmD_5dRJY4GPc0690XkeDy75CH6VQM2BsnOSEZHHlno/edit?usp=sharing"
+              href="https://docs.google.com/document/d/1A6rNW9kJrX7CZOdU8f_QHnuv8uSdMVKMZca3o7pA398/edit?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
