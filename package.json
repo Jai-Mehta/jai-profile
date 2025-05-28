@@ -2,7 +2,6 @@
   "name": "jai-profile",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://https://jai-mehta.github.io/jai-profile",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
@@ -20,12 +19,14 @@
     "styled-components": "^6.1.18",
     "web-vitals": "^2.1.4"
   },
+  "homepage": "https://jai-mehta.github.io/jai-profile",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
+    "clean-gh-pages": "git branch -D gh-pages || echo 'No local gh-pages branch to delete'",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
