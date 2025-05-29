@@ -104,19 +104,21 @@ const Experience = () => {
       logo: deutsche_logo,
       role: "Software Engineer | Deutsche Bank",
       details: [
-        "Developed a scalable web application for analyzing legacy codebases, reducing analysis costs by 70%.",
-        "Integrated Google Vertex AI to generate file summaries, saving 20+ hours weekly.",
-        "Improved productivity by 80% with role-based access and dynamic UI features.",
+        "Developed and deployed a full-stack internal tool reducing codebase analysis time and costs by up to 40%.",
+        "Built a dynamic React frontend and Flask backend with secure role-based access and enhanced user interaction.",
+        "Integrated Google Vertex AI for file summarization with custom prompts, saving 20+ hours/week on code analysis.",
+        "Enabled scalable deployment via Docker and GKE; optimized prompt usage by integrating result caching.",
       ],
-      technologies: "React, Flask, SQL, GCP, Docker",
+      technologies: "React, Python Flask, SQL, GCP (GKE, Vertex AI), Bitbucket, Confluence, Docker",
     },
     {
       logo: deutsche_logo,
       role: "Software Analyst Intern | Deutsche Bank",
       details: [
-        "Developed an NLP application to analyze the bank’s performance in the Environment, Governance and Sustainability sector, by scraping data from newsroom pages of the bank and other competitors, proposing ways to improve the score by more than 30%.",
-        "Designed and deployed a RESTful API using Python Flask on Google App Engine, achieving 99.9% uptime and enabling seamless data integration for real-time analytics.",
-        "Leveraged Google NLP-API to analyze and visualize global sentiment trends, providing suggestions for improving the ESG score.",
+        "Built an NLP-based analytics tool for ESG performance tracking, scraping structured data from bank and competitor newsrooms.",
+        "Designed and deployed REST APIs using Flask on GCP App Engine with Datastore, achieving 99.9% uptime and high scalability.",
+        "Created over 20 visual reports with interactive dashboards using Plotly Dash, enabling keyword-based analysis of connotation impact on scores across regions and streamlining insights into geographical variations from Google NLP API integration.",
+        "Wrote unit tests with pytest to ensure 90%+ code coverage and support compliance."
       ],
       technologies: "Python, Flask, GCP, Data Science",
     },
