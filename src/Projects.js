@@ -210,6 +210,12 @@ const Overlay = styled.div`
 
 const projects = [
   {
+    name: "NEATLEET",
+    summary: `A Chrome extension with over 370 active users, streamlining problem-solving and complexity analysis on LeetCode.
+    Enhanced functionality by incorporating an AI based  code complexity analysis tool using the Gemini API, offering instant insights.`,
+    github: "https://chromewebstore.google.com/detail/neatleet/jcedgkkdknkjbmgbcpipnbdmoblilnmd"
+  },
+  {
     name: "Disease Detection with Explainable AI",
     summary:
       "COVID-19 prediction system using chest X-rays and explainable AI.",
