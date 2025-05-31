@@ -153,7 +153,7 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.5 }}
         >
-          Passionate Software Engineer | AI Enthusiast | Cloud Developer
+          Software Engineer | AI Enthusiast | Cloud Developer
         </motion.p>
         <div className="button-container">
           <motion.button
