@@ -8,6 +8,7 @@ import {
   FaCss3Alt,
   FaJava,
   FaJs,
+  FaDocker
 } from "react-icons/fa";
 import {
   SiHtml5,
@@ -309,7 +310,7 @@ const Skills = () => {
       <div className="subheading">Tools and Technologies</div>
       <div className="skills-container">
         <div className="skill">
-          <SiDocker className="docker" />
+          <FaDocker className="docker" />
           <p>Docker</p>
         </div>
         <div className="skill">
@@ -317,11 +318,11 @@ const Skills = () => {
           <p>Kubernetes</p>
         </div>
         <div className="skill">
-          <SiHtml5 className="html5" />
+          <FaHtml5 className="html5" />
           <p>Html5</p>
         </div>
         <div className="skill">
-          <SiCss3 className="css3" />
+          <FaCss3Alt className="css3" />
           <p>CSS3</p>
         </div>
       </div>
