@@ -304,8 +304,8 @@ const Skills = () => {
       </div>
 
       {/* Tools and Technologies */}
-      <div className="subheading">skills-container</div>
-      <div className="tools-container">
+      <div className="subheading">Tools and Technologies</div>
+      <div className="skills-container">
         <div className="skill">
           <SiDocker className="docker" />
           <p>Docker</p>
