@@ -22,7 +22,9 @@ import {
   SiSwift,
   SiMysql,
   SiMongodb,
-  SiAmazondynamodb
+  SiAmazondynamodb,
+  SiDocker,
+  SiKubernetes
 } from "react-icons/si";
 import gcloudImage from "./static/gcloud.png"; // Import GCP image
 import courseraImage from "./static/coursera.png"; // Import Coursera image
@@ -298,6 +300,19 @@ const Skills = () => {
         <div className="skill">
           <SiAmazondynamodb className="dynamodb" />
           <p>Dynamodb</p>
+        </div>
+      </div>
+
+      {/* Databases */}
+      <div className="subheading">Tools and Technologies</div>
+      <div className="tools-container">
+        <div className="skill">
+          <SiDocker className="docker" />
+          <p>Docker</p>
+        </div>
+        <div className="skill">
+          <SiKubernetes className="kubernetes" />
+          <p>Kubernetes</p>
         </div>
       </div>
 
