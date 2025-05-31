@@ -10,6 +10,8 @@ import {
   FaJs,
 } from "react-icons/fa";
 import {
+  SiHtml5,
+  SiCss3,
   SiPostgresql,
   SiFlask,
   SiDjango,
@@ -313,6 +315,14 @@ const Skills = () => {
         <div className="skill">
           <SiKubernetes className="kubernetes" />
           <p>Kubernetes</p>
+        </div>
+        <div className="skill">
+          <SiHtml5 className="html5" />
+          <p>Html5</p>
+        </div>
+        <div className="skill">
+          <SiCss3 className="css3" />
+          <p>CSS3</p>
         </div>
       </div>
 
