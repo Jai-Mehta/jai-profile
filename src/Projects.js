@@ -338,6 +338,7 @@ const Projects = () => {
             }`}
             data-index={index}
             onClick={() => setSelectedProject(project)}
+            title="Click to know more"
           >
             <h3>{project.name}</h3>
             <p>{project.summary}</p>
