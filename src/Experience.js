@@ -104,12 +104,16 @@ const Experience = () => {
       logo: deutsche_logo,
       role: "Software Engineer | Deutsche Bank",
       details: [
-        "Developed and deployed a full-stack internal tool reducing codebase analysis time and costs by up to 40%.",
-        "Built a dynamic React frontend and Flask backend with secure role-based access and enhanced user interaction.",
-        "Integrated Google Vertex AI for file summarization with custom prompts, saving 20+ hours/week on code analysis.",
-        "Enabled scalable deployment via Docker and GKE; optimized prompt usage by integrating result caching.",
+        "Enabled real-time payments on an Instant Payments platform by developing distributed Java Spring Boot microservices processing 100+ TPS with an SLA of <8s/transaction, ensuring data consistency and fault tolerance across services.",
+        "Developed a data synchronization pipeline replicating static data from Oracle SQL to NoSQL for low-latency lookups in real-time.",
+        "Improved service resilience with health checks, retries, and fallbacks, reducing downtime and increasing reliability.",
+        "Reduced codebase analysis time by ~40% by creating an internal full-stack tool (React + Flask) with secure role-based access.",
+        "Integrated Google Vertex AI for file summarization with optimized prompt caching, saving 16+ engineering hours/week.",
+        "Deployed both systems using Docker + GKE with automated CI/CD pipelines (GitHub Actions) for consistent and scalable releases.",
+        "Built a transaction-level observability dashboard using New Relic capturing latency/error metrics and improving debugging speed.",
       ],
-      technologies: "React, Python Flask, SQL, GCP (GKE, Vertex AI), Bitbucket, Confluence, Docker",
+      technologies:
+        "React, Python Flask, SQL, GCP (GKE, Vertex AI), Bitbucket, Confluence, Docker",
     },
     {
       logo: deutsche_logo,
@@ -118,7 +122,7 @@ const Experience = () => {
         "Built an NLP-based analytics tool for ESG performance tracking, scraping structured data from bank and competitor newsrooms.",
         "Designed and deployed REST APIs using Flask on GCP App Engine with Datastore, achieving 99.9% uptime and high scalability.",
         "Created over 20 visual reports with interactive dashboards using Plotly Dash, enabling keyword-based analysis of connotation impact on scores across regions and streamlining insights into geographical variations from Google NLP API integration.",
-        "Wrote unit tests with pytest to ensure 90%+ code coverage and support compliance."
+        "Wrote unit tests with pytest to ensure 90%+ code coverage and support compliance.",
       ],
       technologies: "Python, Flask, GCP, Data Science",
     },
