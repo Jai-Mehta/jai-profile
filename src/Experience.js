@@ -113,7 +113,7 @@ const Experience = () => {
         "Built a transaction-level observability dashboard using New Relic capturing latency/error metrics and improving debugging speed.",
       ],
       technologies:
-        "React, Python Flask, SQL, GCP (GKE, Vertex AI), Bitbucket, Confluence, Docker",
+        "Java, Springboot, Python, Flask, javascript, React, GKE, MongoDB, Oracle SQL, New Relic, Microservices, Kafka",
     },
     {
       logo: deutsche_logo,
