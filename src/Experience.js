@@ -107,7 +107,7 @@ const Experience = () => {
         "Enabled real-time payments on an Instant Payments platform by developing distributed Java Spring Boot microservices processing 100+ TPS with an SLA of <8s/transaction, ensuring data consistency and fault tolerance across services.",
         "Developed a data synchronization pipeline replicating static data from Oracle SQL to NoSQL for low-latency lookups in real-time.",
         "Improved service resilience with health checks, retries, and fallbacks, reducing downtime and increasing reliability.",
-        "Reduced codebase analysis time by ~20% by developing an internal AI-powered tool with role based access control (RBAC) and validating improvements through A/B testing, ensuring measurable productivity gains.",
+        "Reduced codebase analysis time by ~40% by developing an internal AI-powered tool with role based access control (RBAC) and validating improvements through A/B testing, ensuring measurable productivity gains.",
         "Integrated Google Vertex AI for file summarization with optimized prompt caching, saving 16+ engineering hours/week.",
         "Deployed both systems using Docker + GKE with automated CI/CD pipelines (GitHub Actions) for consistent and scalable releases.",
         "Built a transaction-level observability dashboard using New Relic capturing latency/error metrics and improving debugging speed.",
