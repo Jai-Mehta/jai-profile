@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.js": "/jai-profile/static/js/main.8a747740.js",
+    "main.js": "/jai-profile/static/js/main.c93caafa.js",
     "static/media/mumbai.png": "/jai-profile/static/media/mumbai.e59f45b23d083f9034a3.png",
     "static/media/kjsce_logo.png": "/jai-profile/static/media/kjsce_logo.8357ddb5d2e6622e7d07.png",
     "static/media/sbu.png": "/jai-profile/static/media/sbu.78ce955d141a5c1aa2e8.png",
     "static/media/coursera.png": "/jai-profile/static/media/coursera.92744b2e799346019691.png",
     "static/media/deutsche_logo.png": "/jai-profile/static/media/deutsche_logo.d1df285639afb175bbae.png",
     "static/media/Profile.jpg": "/jai-profile/static/media/Profile.87e51c9555ac3e6a7577.jpg",
+    "static/media/c3_logo.png": "/jai-profile/static/media/c3_logo.d55aef27a49243d332f2.png",
     "static/media/gcloud.png": "/jai-profile/static/media/gcloud.70465c4d5e1ef3848a29.png",
     "index.html": "/jai-profile/index.html",
-    "main.8a747740.js.map": "/jai-profile/static/js/main.8a747740.js.map"
+    "main.c93caafa.js.map": "/jai-profile/static/js/main.c93caafa.js.map"
   },
   "entrypoints": [
-    "static/js/main.8a747740.js"
+    "static/js/main.c93caafa.js"
   ]
 }
