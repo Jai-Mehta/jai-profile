@@ -4,6 +4,7 @@ import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import deutsche_logo from "./static/deutsche_logo.png"; // Deutsche Bank logo
 import kjsce_logo from "./static/kjsce_logo.png"; // KJSCE logo
+import c3_logo from "./static/c3_logo.png";
 
 const Section = styled.section`
   padding: 4rem 2rem;
@@ -100,6 +101,18 @@ const Experience = () => {
   };
 
   const experiences = [
+    {
+      logo: c3_logo,
+      role: "Software Engineer | C3.ai",
+      details: [
+        "Built an AI-powered Root Cause Analysis (RCA) platform that ingests and correlates logs from Grafana, OpenSearch, and internal observability sources to automatically identify failure patterns and underlying system issues.",
+        "Integrated OpenAI APIs to generate human-readable RCA summaries and categorize test results derived from log analysis.",
+        "Supported PSR runs by investigating test failures, helping avoid memory leaks and fixing deadlocks in the system.",
+        "Streamlined, automated and maintained builds using Jenkins and Github Actions.",
+      ],
+      technologies:
+        "Java, Python, Django, React, Graphana, OpenAI API, OpenSearch, Jenkins, Github Actions, React",
+    },
     {
       logo: deutsche_logo,
       role: "Software Engineer | Deutsche Bank",
