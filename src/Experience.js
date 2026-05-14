@@ -105,13 +105,13 @@ const Experience = () => {
       logo: c3_logo,
       role: "Software Engineer | C3.ai",
       details: [
-        "Built an AI-powered Root Cause Analysis (RCA) platform that ingests and correlates logs from Grafana, OpenSearch, and internal observability sources to automatically identify failure patterns and underlying system issues.",
-        "Integrated OpenAI APIs to generate human-readable RCA summaries and categorize test results derived from log analysis.",
-        "Supported PSR runs by investigating test failures, helping avoid memory leaks and fixing deadlocks in the system.",
-        "Streamlined, automated and maintained builds using Jenkins and Github Actions.",
+        "Designed and built a distributed AI-powered Root Cause Analysis (RCA) platform ingesting high-volume logs from Grafana, OpenSearch and client logs; reducing mean time to diagnosis (MTTD) by ~40% by correlating multi-source failure signals.",
+        "Developed sandboxed execution infrastructure for production AI agents to run code in secured containerized environments",
+        "Investigated and resolved concurrency bugs (deadlocks, memory leaks) in a multi-threaded Java service during PSR runs, improving system stability and unblocking weekly release cycles.",
+        "Streamlined, automated and maintained builds using Jenkins, reducing build times by 60%.",
       ],
       technologies:
-        "Java, Python, Django, React, Graphana, OpenAI API, OpenSearch, Jenkins, Github Actions, React",
+        "Java, Python, Django, React, Grafana, OpenAI API, OpenSearch, Jenkins, GitHub Actions, Distributed Tracing",
     },
     {
       logo: deutsche_logo,
